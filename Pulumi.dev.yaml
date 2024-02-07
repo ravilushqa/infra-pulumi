@@ -1,0 +1,4 @@
+config:
+  pulumi:template: webapp-kubernetes-yaml
+  webapp-kubernetes-yaml:k8sNamespace: default
+  webapp-kubernetes-yaml:numReplicas: "1"
